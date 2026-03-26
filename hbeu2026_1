@@ -1,2 +1,9 @@
 def my_fun():
     print('hellow,world!')
+
+
+#循环右移位
+x=list(range(20))   
+x[:5]=reversed(x[:5])
+x[5:]=reversed(x[5:])
+x.reverse()
